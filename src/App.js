@@ -4,7 +4,7 @@ import queueActions from "./algorithms/queue";
 import copyArray from "./utils/copyArray";
 import bfs from "./algorithms/bfs";
 import initArray from "./utils/initArrayValues";
-import Square from "./components";
+import Square from "./components/square";
 
 const LINES = 20;
 const COLUMNS = 15;
