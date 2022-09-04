@@ -29,7 +29,7 @@ const bfs = (
 
   const line = queueActions.dequeue(queueLine);
   const column = queueActions.dequeue(queueColumn);
-  if (AUX[line][column]?.isEnd) {
+  if (line === END.line && column === END.column) {
     queueLine.current = [];
     console.log(grid);
     queueColumn.current = [];
